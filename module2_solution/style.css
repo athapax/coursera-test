@@ -24,6 +24,8 @@ p {
  h2 {
   text-align: right;
    position: right;
+   position: absolute;
+   text-align: center;
 }
 .section{
   margin: 10px;
