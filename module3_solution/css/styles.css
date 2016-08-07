@@ -1,0 +1,137 @@
+html {
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+body {
+  font-size: 15px;
+  color: #003FcFF;
+  background-color: #0000ff;
+  font-family: 'Lora', serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food, LLC */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  position: relative;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  background-color: pink;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+  
+
+h1 {
+  margin-bottom: 15px;
+  color: green;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #00FFFF;
+  width: 100%;
+  height: 1000px;
+  margin-right: 0;
+  margin-left: 0;
+  font-family: Helvetica;
+  color: black;
+}
+ #page {
+  text-align: center;
+  position: absolute;
+  background-color: blue;
+}
+
+ 
+
+.Chicken {
+  background-color: pink;
+  border: 1px;
+  text-align: center;
+  position: absolute;
+}
+  .Beef {
+  background-color: red;
+  color: white;
+  text-align: center;
+  position: absolute;
+}
+.Sushi {
+    background-color:yellow;
+    text-align: center;
+    position: absolute;
+}
+#p1 {
+  padding: 10px 0px 10px 0px;
+
+}
+ #p2 {
+  padding: 10px 0px 10px 0px;
+  
+}
+#p3 {
+  padding: 10px 0px 10px 10px;
+  
+}
+
+
+<!-- Since we are using Bootstrap for this assignment, instead of specifying pixel ranges, I will define our desktop, tablet, and mobile views in terms of Bootstrap CSS class prefixes, i.e., ‘md’, ‘sm’, and ‘xs’.
+Desktop mockup illustration should correspond to Bootstrap ‘md’-based classes
+Tablet mockup illustration should correspond to Bootstrap ‘sm’-based classes
+Mobile mockup illustration should correspond to Bootstrap ‘xs’-based classes -->
+
+.row {
+  width:100%;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) { ... }
+/* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { ... }
+/* Extra small devices (phones, less than 768px) */
+    @media (min-width: @screen-xs-min) { ... }
