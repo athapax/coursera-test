@@ -1,7 +1,102 @@
 
-
 /********** Base styles **********/
 * {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family:'Oxygen', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 130%;
+  margin-bottom: 50px;
+  color: brown;
+}
+
+ body {
+  margin: 20px;
+  background-color: yellow;
+ } 
+
+div {
+  width:100%;
+  margin: auto;
+  float: left;
+ font-style: bold;
+}
+
+h2 {
+  font-style: bold;
+  font-size: 120%;
+  border: 1px solid black;
+  padding: 15px;
+  border:1px solid black;
+  padding: 3px 11px 3px 3px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center
+
+}
+.chicken {
+  background-color: lightgreen;
+  color: #000000;
+}
+
+.beef {
+  background-color: lightblue;
+  color: #FFFFFF;
+}
+
+.sushi {
+  background-color: red;
+  color: #000000;
+}
+
+.section {
+  position: relative;
+  text-align: left;
+  border: 1px solid black;
+  background-color: lightgrey;
+  color: #000000;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding: 40px 10px 10px 10px;
+}
+
+/* Simple Responsive Framework. */
+.row  {
+  width: 100%;
+}
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    width: 33.33%;
+    padding: 0px 10px 0px 10px;
+  }
+}
+/********** Tablet  only **********/
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-1, .col-md-2 {
+    float: left;
+    padding: 0px 10px 0px 10px;
+  }
+  .col-md-1 {
+    width: 100%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+}
+/********** Base styles **********/
+/******* {
   box-sizing: border-box;
   
 }
@@ -53,13 +148,13 @@ p {
   padding: 20px;
 }
 
-/* Simple Responsive Framework. */
+/* Simple Responsive Framework. 
 .row {
   width:100%;
 }
 
 /********** Desktop only **********/
-@media (min-width: 992px) {
+/***@media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     
@@ -103,7 +198,7 @@ p {
 }
 
 /********** Tablet  only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+/*****@media (min-width: 768px) and (max-width: 991px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; 
 
@@ -146,7 +241,7 @@ p {
   }
 }
 /********** Mobile devices only **********/
-@media (max-width: 767px) {
+/***@media (max-width: 767px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
     
@@ -189,3 +284,4 @@ p {
   }
 }
 
+***/
